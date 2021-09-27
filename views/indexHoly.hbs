@@ -1,0 +1,19 @@
+<h1>Праздник и фото достопримечательностей</h1>
+
+<div class="container">
+<div class="holly">
+{{#each holyResult}}
+<ul>
+<li>Дата праздника: {{this.date}} <br> Местное название: {{this.localName}} <br>Общепринятое наименование: {{this.name}}</li>
+</ul>
+{{/each}}
+</div>
+<div class="hollyphoto">
+<div class="photocard"></div>
+{{#each finalImg}}
+<img src="{{this.urls.small}}">
+<p>{{this.alt_description}}</p>
+{{/each}}
+</div>
+</div>
+</div>

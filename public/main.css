@@ -1,0 +1,59 @@
+body {margin:0;
+background-color: #a2d5c6;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: #077b8a;
+  overflow: auto;
+  height: 100px;
+
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 26px;
+  height: 100px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+  height: 100px;
+}
+
+.active {
+  background-color: #d72631;
+  height: 100px;
+}
+
+
+.container {
+  display: flex;
+  background: #a2d5c6;
+  flex-wrap: wrap;
+}
+
+
+.holly {
+float: left;
+display: block;
+width: 20%;
+border: 1px solid #5c3c92;
+margin: 2%;
+}
+
+
+.hollyphoto {
+float: left;
+display: block;
+width: 70%;
+border: 2px solid #5c3c92;
+margin: 2%;
+text-align: center;
+  
+}
